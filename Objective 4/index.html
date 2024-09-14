@@ -1,0 +1,104 @@
+<html>
+  <head>
+    <title>Multiple Webpages</title>
+    <style>
+      body {
+        background-color: #eaeaea;
+      }
+      .image {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+      }
+      .parent {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 50px;
+        text-align: center;
+      }
+      .parent a {
+        text-decoration: none;
+        color: #eaeaea;
+      }
+      .table {
+        width: 49%;
+        border-radius: 10px;
+        background-color: #313d5a;
+      }
+      .about {
+        width: 49%;
+        border-radius: 10px;
+        background-color: #313d5a;
+      }
+      .nav {
+        background-color: #183642;
+        font-size: 35px;
+        border-radius: 10px;
+        color: antiquewhite;
+        text-align: center;
+      }
+      .image img {
+        width: 90%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <h1>Multiple Webpages</h1>
+    </div>
+    <hr />
+    <div class="parent">
+      <div class="table">
+        <a href="./table.html" target="_blank">Table</a>
+      </div>
+      <div class="about">
+        <a href="./about.html" target="_blank">About me</a>
+      </div>
+    </div>
+    <div class="image">
+      <img src="img.png" alt="Programming languages" usemap="#plangs" />
+      <map name="plangs">
+        <area
+          shape="rect"
+          coords="183,697,432,920"
+          href="./ruby.html"
+          alt="Ruby"
+          title="Ruby"
+          target="_blank"
+        />
+        <area
+          shape="rect"
+          coords="320,220,570,470"
+          href="./python.html"
+          alt="Python"
+          title="Python"
+          target="_blank"
+        />
+        <area
+          shape="rect"
+          coords="800,370,1040,130"
+          href="./c.html"
+          alt="C language"
+          title="C language"
+          target="_blank"
+        />
+        <area
+          shape="rect"
+          coords="1270,150,1490,450"
+          href="./java.html"
+          alt="Java"
+          title="Java"
+          target="_blank"
+        />
+        <area
+          shape="rect"
+          coords="1400,690,1620,900"
+          href="./javascript.html"
+          alt="Javascript"
+          title="Javascript"
+          target="_blank"
+        />
+      </map>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+* {
+  margin-left: 1rem;
+  font-family: sans-serif;
+  margin-bottom: 1rem;
+  font-size: x-large;
+}
+h2 {
+  text-align: center;
+  align-content: center;
+}
+button {
+  display: block;
+  border: 0.2px solid transparent;
+  border-radius: 5px;
+  width: 90%;
+  text-align: left;
+  cursor: pointer;
+  color: #ffffff;
+  background: #007bff;
+}
+button:hover {
+  background: #0056b3;
+}
+div {
+  width: 80%;
+  margin-bottom: 3rem;
+  border: 15px solid #d3dad7;
+}
+.selected {
+  background-color: #004085;
+  border: 2px solid darkblue;
+}
+.body_2 {
+  background-color: bisque;
+}
